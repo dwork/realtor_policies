@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Realtor Policies feature.
+ */
+
+include_once 'realtor_policies.features.inc';
