@@ -24,10 +24,10 @@ function realtor_policies_content_menu_links_defaults() {
     'expanded' => '0',
     'weight' => '-50',
   );
-  // Exported menu link: main-menu:node/1
-  $menu_links['main-menu:node/1'] = array(
+  // Exported menu link: main-menu:node/5
+  $menu_links['main-menu:node/5'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/1',
+    'link_path' => 'node-name/agency_disclosure',
     'router_path' => 'node/%',
     'link_title' => 'Disclosure',
     'options' => array(
@@ -42,15 +42,15 @@ function realtor_policies_content_menu_links_defaults() {
     'expanded' => '0',
     'weight' => '-48',
   );
-  // Exported menu link: main-menu:node/3
-  $menu_links['main-menu:node/3'] = array(
+  // Exported menu link: main-menu:node/6
+  $menu_links['main-menu:node/6'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/3',
+    'link_path' => 'node-name/privacy_policy',
     'router_path' => 'node/%',
     'link_title' => 'Privacy Policy',
     'options' => array(
       'attributes' => array(
-        'title' => 'Privacy Policy',
+        'title' => 'Privacy Policy and use of cookies',
       ),
     ),
     'module' => 'menu',
