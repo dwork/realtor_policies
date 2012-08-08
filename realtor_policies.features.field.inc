@@ -10,8 +10,8 @@
 function realtor_policies_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-page-body'
-  $fields['node-page-body'] = array(
+  // Exported field: 'node-static_page-body'
+  $fields['node-static_page-body'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -41,7 +41,7 @@ function realtor_policies_field_default_fields() {
       'type' => 'text_with_summary',
     ),
     'field_instance' => array(
-      'bundle' => 'page',
+      'bundle' => 'static_page',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',

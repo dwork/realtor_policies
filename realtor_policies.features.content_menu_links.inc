@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * realtor_policies.features.menu_links.inc
+ * realtor_policies.features.content_menu_links.inc
  */
 
 /**
- * Implements hook_menu_default_menu_links().
+ * Implements hook_content_menu_links_defaults().
  */
-function realtor_policies_menu_default_menu_links() {
+function realtor_policies_content_menu_links_defaults() {
   $menu_links = array();
 
   // Exported menu link: main-menu:<front>

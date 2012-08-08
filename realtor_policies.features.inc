@@ -19,10 +19,10 @@ function realtor_policies_ctools_plugin_api() {
  */
 function realtor_policies_node_info() {
   $items = array(
-    'page' => array(
-      'name' => t('Basic page'),
+    'static_page' => array(
+      'name' => t('Static Page'),
       'base' => 'node_content',
-      'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
+      'description' => t('Static pages, initially loaded using the "realtor_policies" feature'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
