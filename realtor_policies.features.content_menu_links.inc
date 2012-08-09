@@ -60,24 +60,6 @@ function realtor_policies_content_menu_links_defaults() {
     'expanded' => '0',
     'weight' => '-45',
   );
-  // Exported menu link: main-menu:node/4
-  $menu_links['main-menu:node/4'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node-name/mortgage_calculator',
-    'router_path' => 'node/%',
-    'link_title' => 'Mortgage Calculator',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Mortgage Calculator',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-49',
-  );
   // Exported menu link: main-menu:node/1
   $menu_links['main-menu:node/1'] = array(
     'menu_name' => 'main-menu',
@@ -119,7 +101,6 @@ function realtor_policies_content_menu_links_defaults() {
   t('Contact Us');
   t('Disclosure');
   t('Home');
-  t('Mortgage Calculator');
   t('Privacy Policy');
   t('Relocation');
 
